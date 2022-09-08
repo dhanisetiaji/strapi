@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "travels_packages",
+  "info": {
+    "singularName": "travels-package",
+    "pluralName": "travels-packages",
+    "displayName": "travelsPackage",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "namePackage": {
+      "type": "string"
+    },
+    "descriptionsPackage": {
+      "type": "text"
+    },
+    "pricePackage": {
+      "type": "float"
+    },
+    "imagePackage": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}
