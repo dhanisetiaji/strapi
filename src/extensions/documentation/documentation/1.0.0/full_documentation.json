@@ -14,7 +14,7 @@
       "name": "Apache 2.0",
       "url": "https://www.apache.org/licenses/LICENSE-2.0.html"
     },
-    "x-generation-date": "2022-09-08T09:51:19.596Z"
+    "x-generation-date": "2022-09-09T17:19:08.479Z"
   },
   "x-strapi-config": {
     "path": "/documentation",
@@ -103,12 +103,12 @@
               "addressCustomer": {
                 "type": "string"
               },
-              "phoneCustomer": {
-                "type": "integer"
-              },
               "emailCustomer": {
                 "type": "string",
                 "format": "email"
+              },
+              "phoneCustomer": {
+                "type": "string"
               }
             }
           }
@@ -129,12 +129,12 @@
               "addressCustomer": {
                 "type": "string"
               },
-              "phoneCustomer": {
-                "type": "integer"
-              },
               "emailCustomer": {
                 "type": "string",
                 "format": "email"
+              },
+              "phoneCustomer": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -452,12 +452,12 @@
               "addressCustomer": {
                 "type": "string"
               },
-              "phoneCustomer": {
-                "type": "integer"
-              },
               "emailCustomer": {
                 "type": "string",
                 "format": "email"
+              },
+              "phoneCustomer": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -808,12 +808,12 @@
               "addressCustomer": {
                 "type": "string"
               },
-              "phoneCustomer": {
-                "type": "integer"
-              },
               "emailCustomer": {
                 "type": "string",
                 "format": "email"
+              },
+              "phoneCustomer": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -1131,12 +1131,12 @@
               "addressCustomer": {
                 "type": "string"
               },
-              "phoneCustomer": {
-                "type": "integer"
-              },
               "emailCustomer": {
                 "type": "string",
                 "format": "email"
+              },
+              "phoneCustomer": {
+                "type": "string"
               },
               "createdAt": {
                 "type": "string",
@@ -1508,12 +1508,12 @@
                           "addressCustomer": {
                             "type": "string"
                           },
-                          "phoneCustomer": {
-                            "type": "integer"
-                          },
                           "emailCustomer": {
                             "type": "string",
                             "format": "email"
+                          },
+                          "phoneCustomer": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -1902,12 +1902,12 @@
                           "addressCustomer": {
                             "type": "string"
                           },
-                          "phoneCustomer": {
-                            "type": "integer"
-                          },
                           "emailCustomer": {
                             "type": "string",
                             "format": "email"
+                          },
+                          "phoneCustomer": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -2329,12 +2329,12 @@
                           "addressCustomer": {
                             "type": "string"
                           },
-                          "phoneCustomer": {
-                            "type": "integer"
-                          },
                           "emailCustomer": {
                             "type": "string",
                             "format": "email"
+                          },
+                          "phoneCustomer": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -2723,12 +2723,12 @@
                           "addressCustomer": {
                             "type": "string"
                           },
-                          "phoneCustomer": {
-                            "type": "integer"
-                          },
                           "emailCustomer": {
                             "type": "string",
                             "format": "email"
+                          },
+                          "phoneCustomer": {
+                            "type": "string"
                           },
                           "createdAt": {
                             "type": "string",
@@ -3121,7 +3121,7 @@
                 ],
                 "example": "string or id"
               },
-              "travels_package": {
+              "travelsPackageId": {
                 "oneOf": [
                   {
                     "type": "integer"
@@ -3179,12 +3179,12 @@
                                       "addressCustomer": {
                                         "type": "string"
                                       },
-                                      "phoneCustomer": {
-                                        "type": "integer"
-                                      },
                                       "emailCustomer": {
                                         "type": "string",
                                         "format": "email"
+                                      },
+                                      "phoneCustomer": {
+                                        "type": "string"
                                       },
                                       "createdAt": {
                                         "type": "string",
@@ -3548,7 +3548,7 @@
                   }
                 }
               },
-              "travels_package": {
+              "travelsPackageId": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -3570,7 +3570,7 @@
                             "type": "number",
                             "format": "float"
                           },
-                          "imagePackage": {
+                          "image": {
                             "type": "object",
                             "properties": {
                               "data": {
@@ -4336,12 +4336,12 @@
                                       "addressCustomer": {
                                         "type": "string"
                                       },
-                                      "phoneCustomer": {
-                                        "type": "integer"
-                                      },
                                       "emailCustomer": {
                                         "type": "string",
                                         "format": "email"
+                                      },
+                                      "phoneCustomer": {
+                                        "type": "string"
                                       },
                                       "createdAt": {
                                         "type": "string",
@@ -4705,7 +4705,7 @@
                   }
                 }
               },
-              "travels_package": {
+              "travelsPackageId": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -4727,7 +4727,7 @@
                             "type": "number",
                             "format": "float"
                           },
-                          "imagePackage": {
+                          "image": {
                             "type": "object",
                             "properties": {
                               "data": {
@@ -5526,12 +5526,12 @@
                                       "addressCustomer": {
                                         "type": "string"
                                       },
-                                      "phoneCustomer": {
-                                        "type": "integer"
-                                      },
                                       "emailCustomer": {
                                         "type": "string",
                                         "format": "email"
+                                      },
+                                      "phoneCustomer": {
+                                        "type": "string"
                                       },
                                       "createdAt": {
                                         "type": "string",
@@ -5895,7 +5895,7 @@
                   }
                 }
               },
-              "travels_package": {
+              "travelsPackageId": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -5917,7 +5917,7 @@
                             "type": "number",
                             "format": "float"
                           },
-                          "imagePackage": {
+                          "image": {
                             "type": "object",
                             "properties": {
                               "data": {
@@ -6683,12 +6683,12 @@
                                       "addressCustomer": {
                                         "type": "string"
                                       },
-                                      "phoneCustomer": {
-                                        "type": "integer"
-                                      },
                                       "emailCustomer": {
                                         "type": "string",
                                         "format": "email"
+                                      },
+                                      "phoneCustomer": {
+                                        "type": "string"
                                       },
                                       "createdAt": {
                                         "type": "string",
@@ -7052,7 +7052,7 @@
                   }
                 }
               },
-              "travels_package": {
+              "travelsPackageId": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -7074,7 +7074,7 @@
                             "type": "number",
                             "format": "float"
                           },
-                          "imagePackage": {
+                          "image": {
                             "type": "object",
                             "properties": {
                               "data": {
@@ -7831,7 +7831,7 @@
                 "type": "number",
                 "format": "float"
               },
-              "imagePackage": {
+              "image": {
                 "oneOf": [
                   {
                     "type": "integer"
@@ -7865,7 +7865,7 @@
                 "type": "number",
                 "format": "float"
               },
-              "imagePackage": {
+              "image": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -8806,7 +8806,7 @@
                 "type": "number",
                 "format": "float"
               },
-              "imagePackage": {
+              "image": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -9780,7 +9780,7 @@
                 "type": "number",
                 "format": "float"
               },
-              "imagePackage": {
+              "image": {
                 "type": "object",
                 "properties": {
                   "data": {
@@ -10721,7 +10721,7 @@
                 "type": "number",
                 "format": "float"
               },
-              "imagePackage": {
+              "image": {
                 "type": "object",
                 "properties": {
                   "data": {

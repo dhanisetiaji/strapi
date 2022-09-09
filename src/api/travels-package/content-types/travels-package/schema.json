@@ -13,21 +13,25 @@
   "pluginOptions": {},
   "attributes": {
     "namePackage": {
-      "type": "string"
+      "type": "string",
+      "pluginOptions": {}
     },
     "descriptionsPackage": {
-      "type": "text"
+      "type": "text",
+      "pluginOptions": {}
     },
     "pricePackage": {
-      "type": "float"
+      "type": "float",
+      "pluginOptions": {}
     },
-    "imagePackage": {
+    "image": {
       "type": "media",
       "multiple": false,
       "required": false,
       "allowedTypes": [
         "images"
-      ]
+      ],
+      "pluginOptions": {}
     }
   }
 }

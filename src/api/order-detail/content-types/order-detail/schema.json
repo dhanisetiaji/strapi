@@ -4,7 +4,8 @@
   "info": {
     "singularName": "order-detail",
     "pluralName": "order-details",
-    "displayName": "orderDetail"
+    "displayName": "orderDetail",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -16,13 +17,14 @@
       "relation": "oneToOne",
       "target": "api::order.order"
     },
-    "travels_package": {
+    "travelsPackageId": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::travels-package.travels-package"
     },
     "price": {
-      "type": "float"
+      "type": "float",
+      "min": 1
     }
   }
 }

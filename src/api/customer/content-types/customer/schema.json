@@ -4,7 +4,8 @@
   "info": {
     "singularName": "customer",
     "pluralName": "customers",
-    "displayName": "Customer"
+    "displayName": "Customer",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -17,13 +18,13 @@
     "addressCustomer": {
       "type": "string"
     },
-    "phoneCustomer": {
-      "min": 10,
-      "type": "integer"
-    },
     "emailCustomer": {
       "type": "email",
       "unique": true
+    },
+    "phoneCustomer": {
+      "type": "string",
+      "maxLength": 14
     }
   }
 }
